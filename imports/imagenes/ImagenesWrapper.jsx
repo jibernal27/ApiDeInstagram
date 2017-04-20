@@ -26,12 +26,12 @@ constructor() {
 				    alert(err);
 				  } else {
 				  	console.log(res)
-				  	this.setState({imagenes:res.data});
-				    //Session.set("data", err)
+
+				    this.setState({imagenes:res.data.data})		
 
 				  }
 				});
-		//this.setState({imagenes:Session.get('data')})		
+		
 	}
 
 	render()
