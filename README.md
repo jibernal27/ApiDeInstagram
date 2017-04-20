@@ -1,6 +1,6 @@
 # Prueba del API de Instagram
 Para correrlo
-'''bash
-meteor install
-meteor
-'''
+```bash
+$ meteor install
+$ meteor
+```
