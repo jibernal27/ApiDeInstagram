@@ -1,0 +1,82 @@
+body{
+	margin:0;
+	padding:0;
+	background-color: #000080;
+}
+
+
+header{
+  background-color: black;
+}
+
+input{
+  margin:1%;
+  padding:1%;
+}
+
+a{
+	margin:1%;
+}
+
+.imagen{
+	float:left;
+}
+
+.login-link-text, .login-link-text a:link, .login-link-text a:visited
+{
+	color:white !important;
+
+}
+
+.new-image
+{
+	padding-right:100px;
+	padding-left:100px;
+}
+
+.CotainerF
+{
+	padding-left:100px ;
+	padding-right:100px;
+}
+
+.botonesImagen{
+	position: relative;
+	top:0;
+	left:0;
+}
+
+img{
+  height:150px;
+  width:150px;
+  object-fit:cover;
+  z-index:-1;
+}
+
+img:hover{
+		-moz-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	transform: scale(1.5);
+	 z-index: 10;
+	 position: relative;
+}
+
+.imageResult { 
+	width: 100;
+	height: 100;
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+} 
+.imageResult:hover {
+	-moz-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	transform: scale(1.5);
+	 z-index: 10;
+	 position: relative;
+} 
